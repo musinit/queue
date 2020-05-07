@@ -35,7 +35,7 @@ func TestDequeue(t *testing.T) {
 	}
 }
 
-/*func TestAttachExtraContext(t *testing.T) {
+func TestAttachExtraContext(t *testing.T) {
 	queue := QueueAsset{}
 	element := queue.Enqueue("1")
 	contextKey := ExtraContextKey(1)
@@ -46,7 +46,7 @@ func TestDequeue(t *testing.T) {
 	if err != nil {
 		t.Errorf("could not attach context to element")
 	}
-}*/
+}
 
 func TestFilterByValue(t *testing.T) {
 	queue := QueueAsset{}
